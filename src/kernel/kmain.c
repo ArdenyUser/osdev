@@ -153,7 +153,7 @@ void completed_init() {
     window_add_maximize_button(red_w);
     canvas_t canvas_red = canvas_create(red_w->width, red_w->height, red_w->frame_buffer);
     set_font_color(VESA_COLOR_BLACK + 1);
-    draw_text(&canvas_red, "Terminal", 1, 42);
+    draw_text(&canvas_red, "AWOS Terminal", 1, 42);
     window_add_round_corner(red_w);
     blend_windows(red_w);
 
